@@ -32,7 +32,7 @@ function App() {
         <h1>OffCanvas</h1>
         <OffCanvas
           openCanvas={openCanvas}
-          onClose={() => setOpenCanvas(!openCanvas)}
+          onClose={() => setOpenCanvas(false)}
         />
         <Button onClick={() => setOpenCanvas(!openCanvas)}>
           {"Toggle left Canvas"}
