@@ -1,0 +1,35 @@
+.header {
+    background: rgb(239, 239, 239);
+    display: flex;
+    align-items: center;
+    padding-inline: 10px;
+    padding-block: 5px;
+    justify-content: space-between;
+}
+
+.btn {
+    padding-block: 6px;
+    transition: all .2s;
+}
+
+.title {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.box {
+    width: 20px;
+    height: 20px;
+    border-radius: 20%;
+    background-color: blue;
+}
+
+.wrap {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.public {
+    color: #999;
+}

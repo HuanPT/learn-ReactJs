@@ -1,0 +1,12 @@
+.accordion-item {
+    border: 1px solid #333;
+}
+
+
+.accordion-item .accordion-content {
+    display: none;
+}
+
+.accordion-item--active .accordion-content {
+    display: block;
+}

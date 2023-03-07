@@ -1,0 +1,9 @@
+.Tab {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.listContent {
+    text-align: center;
+}
